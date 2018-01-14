@@ -5,6 +5,8 @@ This is a package containing a collection of HTML5/Javascript implementations fo
 
 To see kineval in action, open home.html in a web browser.  Firefox 29.0 through 41.0 works for sure.  Chrome and Opera will throw security errors when loading local files from JavaScript (which feels like forcing people into the cloud).
 
+Press "V" to open the controls/help dialogue
+
 ## Controls:
 
 - W/A/S/D - move forward/backward and turn right/left
@@ -21,5 +23,5 @@ To see kineval in action, open home.html in a web browser.  Firefox 29.0 through
 
 The subdirectories "robots" and "worlds" contains descriptions of various robots and worlds as js files that can be used with KinEval.  These robots and worlds can be included by including the appropriate js files in home.html.  For example:
 
-<script src="robots/robot_mr2.js"></script> 
-<script src="worlds/world_local_minima.js"></script>
+<script src="robots/fetch/fetch.urdf.js"></script> 
+<script src="worlds/world_random.js"></script>
