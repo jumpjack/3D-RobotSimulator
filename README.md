@@ -25,3 +25,42 @@ The subdirectories "robots" and "worlds" contains descriptions of various robots
 
 <script src="robots/fetch/fetch.urdf.js"></script> 
 <script src="worlds/world_random.js"></script>
+
+
+## Options for Robots/Worlds directly from the URL
+
+#### Adding New Worlds
+To add a world file directly from the URL, you can just add the following at the end of the URL
+```html
+?world=worlds/<world_name>.js
+  ```
+where ```<world_name>``` can be one of the following (all files in the worlds folder)
+* world_barrier
+* world_empty
+* world_basic
+* world_local_minima
+* world_random
+* world_s
+
+
+#### Adding New Robots
+To add a robot URDF file directly from the URL, you can just add the following at the end of the URL
+```html
+?robot=robots/<robot_name>.js
+  ```
+where ```<robot_name>``` can be one of the following (all files in the robots folder)
+* robot_mr2
+* robot_55473250
+* robot_crawler
+* robot_urdf_example
+* fetch/fetch.urdf
+
+#### Adding both world and robot
+You can append the robot and world tags as described above to the end of the URL as follows:
+```html
+?robot=robots/<robot_name>.js?world=worlds/<world_name>.js
+  ```
+which in turn makes the URL look somewhat as follows:
+```html
+/home.html?robot=robots/fetch/fetch.urdf.js?world=worlds/world_random.js
+```
