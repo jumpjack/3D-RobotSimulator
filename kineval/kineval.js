@@ -596,7 +596,7 @@ kineval.initRobotLinksGeoms = function initRobotLinksGeoms() {
             robot.links[x].geom = new THREE.Mesh( links_geom[x], robot_material);
         else
             robot.links[x].geom = links_geom[x];
-        robot.links[x].geom.name = "robot_link_"+x;
+        //robot.links[x].geom.name = "robot_link_"+x;
 
         // add to threejs mesh to scene in world frame
         scene.add(robot.links[x].geom);
