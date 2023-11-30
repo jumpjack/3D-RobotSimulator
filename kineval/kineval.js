@@ -605,7 +605,7 @@ kineval.initRobotLinksGeoms = function initRobotLinksGeoms() {
         // set the bounding box of robot link in local link coordinates
         robot.links[x].bbox = new THREE.Box3;
         //(THREE r62) robot.links[x].bbox = robot.links[x].bbox.setFromPoints(robot.links[x].geom.geometry.vertices);
-        robot.links[x].bbox = robot.links[x].bbox.setFromObject(robot.links[x].geom);
+  //      robot.links[x].bbox = robot.links[x].bbox.setFromObject(robot.links[x].geom);
 
         bbox_geom = new THREE.BoxGeometry(
             robot.links[x].bbox.max.x-robot.links[x].bbox.min.x,
