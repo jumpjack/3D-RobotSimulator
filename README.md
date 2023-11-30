@@ -1,6 +1,10 @@
 # Robot-Kinematic-Simulator
 A JavaScript based Kinematics Simulator
 
+Live demo: https://jumpjack.github.io/3D-RobotSimulator/home.html
+
+
+
 This is a package containing a collection of HTML5/Javascript implementations for teaching robot kinematics, control, decision making, and dynamics and is derived from <a href="http://ohseejay.org/">Prof. Chad Jenkins</a> work on the emulator.
 
 To see kineval in action, open home.html in a web browser.  Firefox 29.0 through 41.0 works for sure.  Chrome and Opera will throw security errors when loading local files from JavaScript (which feels like forcing people into the cloud).
